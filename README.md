@@ -144,29 +144,6 @@ WhatsApp integration for leave requests, salary slips, and Q&A support:
 1. Configure WhatsApp Business API credentials
 2. Endpoints for sending and receiving messages
 3. Webhook integration for message delivery
-
-## Deployment
-
-### Vercel Deployment
-
-1. Push code to GitHub
-2. Connect to Vercel
-3. Set environment variables
-4. Deploy
-
-```bash
-vercel deploy
-```
-
-## Development Guidelines
-
-### Adding New Pages
-
-1. Create folder under `app/[role]/[feature]/`
-2. Create `page.tsx` file
-3. Use appropriate layout (AdminLayout, ManagerLayout, LaborLayout)
-4. Implement components
-
 ### Adding New Components
 
 1. Create component file in `components/`
